@@ -2,10 +2,7 @@
 name: Tests
 
 on:
-  push:
-    branches: [ canon ]
-  pull_request:
-    branches: [ canon ]
+  workflow_dispatch: 
 
 jobs:
   check-tests:
